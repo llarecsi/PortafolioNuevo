@@ -38,8 +38,14 @@ const proyectos = [
      {
     nombre: "Parqueo",
     desc: "Parqueo",
-    demo: "https://llarecsi.github.io/Gestiontarea/",
-    code: "https://github.com/llarecsi/Gestiontarea.git"
+    demo: "https://llarecsi.github.io/parqueo/",
+    code: "https://github.com/llarecsi/parqueo.git"
+  },
+   {
+    nombre: "PartafolioNuevo",
+    desc: "Nuevo",
+    demo: "https://llarecsi.github.io/PortafolioNuevo/",
+    code: "https://github.com/llarecsi/PortafolioNuevo.git"
   },
   {
     nombre: "Catálogo",

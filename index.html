@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Andrea Díaz | Portafolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container topbar__content">
+    <a class="brand" href="#inicio">
+      <span class="brand__star">✦</span>
+      Andrea Díaz
+    </a>
+
+    <nav class="nav">
+      <a href="#sobre">Sobre mí</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto" class="nav__cta">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section id="inicio" class="hero">
+    <div class="container hero__grid">
+      <div class="hero__text">
+        <p class="badge">Frontend Junior</p>
+        <h1>Hola, soy <span>Andrea Díaz</span>.</h1>
+        <p class="subtitle">
+          Estudiante de Ingeniería. Construyo proyectos web con HTML, CSS y JavaScript,
+          enfocándome en interfaces claras y funcionales.
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn primary" href="#proyectos">Ver proyectos</a>
+          <a class="btn ghost" href="#contacto">Contactarme</a>
+        </div>
+
+        <div class="hero__links">
+          <a href="https://github.com/llarecsi" target="_blank">GitHub</a>
+          <span>•</span>
+          <a href="mailto:diazdavilaandrea@gmail.com">Correo</a>
+        </div>
+      </div>
+
+      <div class="hero__card">
+        <div class="avatar" aria-hidden="true">AD</div>
+        <div class="hero__mini">
+          <h3>Lo que ofrezco</h3>
+          <ul>
+            <li>✅ UI limpia y ordenada</li>
+            <li>✅ Proyectos con demo y GitHub</li>
+            <li>✅ Código simple y entendible</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE MI -->
+  <section id="sobre" class="section">
+    <div class="container">
+      <h2 class="title">Sobre mí</h2>
+      <p class="text">
+        Me interesa el desarrollo web y la creación de soluciones prácticas. Me gusta aprender,
+        mejorar mis proyectos y mantener el código organizado.
+      </p>
+
+      <div class="stats">
+        <div class="stat">
+          <p class="stat__num">6+</p>
+          <p class="stat__label">Proyectos publicados</p>
+        </div>
+        <div class="stat">
+          <p class="stat__num">HTML/CSS</p>
+          <p class="stat__label">Base sólida</p>
+        </div>
+        <div class="stat">
+          <p class="stat__num">JS</p>
+          <p class="stat__label">Nivel básico</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HABILIDADES -->
+  <section id="habilidades" class="section">
+    <div class="container">
+      <h2 class="title">Habilidades</h2>
+
+      <div class="skills">
+        <div class="skill">
+          <h3>Frontend</h3>
+          <p class="text small">HTML, CSS y JavaScript (bases).</p>
+        </div>
+
+        <div class="skill">
+          <h3>Herramientas</h3>
+          <p class="text small">GitHub, VS Code, diseño responsive.</p>
+        </div>
+
+        <div class="skill">
+          <h3>Soft skills</h3>
+          <p class="text small">Trabajo en equipo, responsabilidad y comunicación.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section id="proyectos" class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="title">Proyectos</h2>
+        <p class="text small">Demos funcionales + repositorio en GitHub.</p>
+      </div>
+
+      <div class="projects" id="projectsGrid"></div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="section">
+    <div class="container">
+      <h2 class="title">Contacto</h2>
+      <p class="text">
+        Si quieres contactarme, aquí están mis datos:
+      </p>
+
+      <div class="contact">
+        <a class="contact__item" href="mailto:diazdavilaandrea@gmail.com">
+          <span class="contact__label">Email</span>
+          <span class="contact__value">diazdavilaandrea@gmail.com</span>
+        </a>
+
+        <a class="contact__item" href="tel:+50686986970">
+          <span class="contact__label">Teléfono</span>
+          <span class="contact__value">+506 8698 6970</span>
+        </a>
+
+        <a class="contact__item" href="https://github.com/llarecsi" target="_blank">
+          <span class="contact__label">GitHub</span>
+          <span class="contact__value">github.com/llarecsi</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__content">
+    <p>© <span id="year"></span> Andrea Díaz — Portafolio</p>
+    <a href="#inicio">Subir ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
